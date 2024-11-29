@@ -1,14 +1,149 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-    <script type="module" crossorigin src="/assets/index-DfQ3Eo-l.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-DiwrgTda.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Add Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Profile Section -->
+  <div class="profile">
+    <img src="https://media.licdn.com/dms/image/v2/D4D03AQEBRUxWiZpQ6w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1727975332299?e=1738195200&v=beta&t=N63Gxa4Kpci1L_DANiKc3AM5y4DbCeApSvsJW49EadM" alt="Profile Picture" class="profile-pic">
+    <div class="profile-wrapper">
+      <h1 class="profile-name">Enzo Leandro Gonzaléz</h1>
+      <p class="profile-info">FullStack Developer | 5 years of experience with JavaScript</p>
+      
+      <!-- Skills Section -->
+      <p><strong>Skills Legend:</strong> Proficient (Green) - Intermediate (Yellow)</p>
+
+      <div class="skills">
+        <!-- Proficient Skills (Green) -->
+        <span class="skill proficient">JavaScript</span>
+        <span class="skill proficient">Node.js</span>
+        <span class="skill proficient">React</span>
+        <span class="skill proficient">MySQL</span>
+        <span class="skill proficient">PostgreSQL</span>
+        <span class="skill proficient">Express</span>
+        <span class="skill proficient">Git</span>
+        <span class="skill proficient">Swagger</span>
+        <span class="skill proficient">Sequelize</span>
+        <span class="skill proficient">HTML</span>
+        <span class="skill proficient">CSS</span>
+        <!-- Intermediate Skills (Yellow) -->
+        <span class="skill intermediate">MongoDB</span>
+        <span class="skill intermediate">PHP</span>
+        <span class="skill intermediate">TypeScript</span>
+        <span class="skill intermediate">NestJS</span>
+        <span class="skill intermediate">Jira</span>
+      </div>
+      
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <a href="mailto:enzoleagonzalez@gmail.com" class="contact-item">
+          <i class="fas fa-envelope"></i> enzoleagonzalez@gmail.com
+        </a>
+        <a href="https://linkedin.com/in/enzo-gonzalez-97t" class="contact-item" target="_blank">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://github.com/gitgonlea" class="contact-item" target="_blank">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Portfolio Section -->
+  <main class="portfolio">
+    <h2>Experience and Projects</h2>
+    <div class="projects">
+      <!-- Project 1 -->
+      <a href="https://argentina-strike.com" class="project" target="_blank">
+        <div class="project-content">
+          <h3>argentina-strike.com</h3>
+          <p class="project-description">
+            I designed, developed, and deployed a web app at argentina-strike.com that allows game server owners to list their servers. The platform allows users to view server statistics, connect to play, and monitor live player information.
+          </p>
+          <!-- Skills Used -->
+          <div class="skills-used">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">React</span>
+            <span class="skill">Javascript</span>
+            <span class="skill">Nodejs</span>
+            <span class="skill">MySQL</span>
+          </div>
+        </div>
+      </a>
+      <!-- Project 2 -->
+      <a href="https://patagonia-strike.com" class="project" target="_blank">
+        <div class="project-content">
+          <h3>patagonia-strike.com</h3>
+          <p class="project-description">
+            I designed, developed, and deployed a web app at patagonia-strike.com that enables users to purchase subscriptions for a game server. The platform automates subscription activation once the payment  gets confirmed.
+          </p>
+          <!-- Skills Used -->
+          <div class="skills-used">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+            <span class="skill">React</span>
+            <span class="skill">Javascript</span>
+            <span class="skill">Nodejs</span>
+            <span class="skill">MySQL</span>
+          </div>
+        </div>
+      </a>
+      <!-- Project 3 -->
+      <a href="https://espacios-chat2.github.io/01/?id=test" class="project" target="_blank">
+        <div class="project-content">
+          <h3>Espacios de chat</h3>
+          <p class="project-description">
+            I created and deployed a web application that allows users to design their own customizable profile page. Users can personalize their profile by editing their username, adjusting color schemes, uploading a banner and avatar, and adding friends. The platform also supports posting content and creating a personal playlist with the choice to upload up to 10 audio files.
+          </p>
+          <!-- Skills Used -->
+          <div class="skills-used">
+            <span class="skill">CSS</span>
+            <span class="skill">HTML</span>
+            <span class="skill">React</span>
+            <span class="skill">Javascript</span>
+            <span class="skill">Typescript</span>
+            <span class="skill">Nodejs</span>
+            <span class="skill">Nestjs</span>
+            <span class="skill">MySQL</span>
+          </div>
+        </div>
+      </a>
+      <!-- Project 4 -->
+      <a href="https://nocountry.tech" class="project" target="_blank">
+        <div class="project-content">
+          <h3>Backend Developer at NoCountry.tech</h3>
+          <p class="project-description">I collaborated with a team to develop three small projects, where I contributed as a backend developer.</p>
+          <!-- Skills Used -->
+          <div class="skills-used">
+            <span class="skill">JavaScript</span>
+            <span class="skill">Node.js</span>
+            <span class="skill">MySQL</span>
+            <span class="skill">PostgreSQL</span>
+            <span class="skill">Express</span>
+            <span class="skill">Git</span>
+            <span class="skill">Swagger</span>
+            <span class="skill">Sequelize</span>
+            <span class="skill">MongoDB</span>
+            <span class="skill">TypeScript</span>
+            <span class="skill">NestJS</span>
+            <span class="skill">Jira</span>
+            <span class="skill">Conventional Commits</span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
 </html>
